@@ -48,7 +48,7 @@ public class Main {
                 pos = ler.next();
 
                 while (!novoJogo.isValido(pos)){
-                    System.out.println("Posição inválida! Por favor, escolha outra posição: ");
+                    System.out.println("POSIÇÃO INVÁLIDA! Por favor, escolha outra posição: ");
                     pos =ler.next();
                     valida = 0;
                 }
